@@ -1,0 +1,62 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.5s,
+		transition:			0.2s
+	);
+
+// Size.
+	$size: (
+		element-height:		3rem,
+		element-margin:		2rem,
+		padding:			2rem,
+		wrapper:			72rem
+	);
+
+// Font.
+	$font: (
+		family:				('Inter', Georgia, serif),
+		family-heading:		('Inter', Helvetica, sans-serif),
+		family-fixed:		('Inter', monospace),
+		weight:				400,
+		weight-bold:		500,
+		weight-heading:		500,
+	);
+
+// Palette.
+	$palette: (
+		wrapper-bg:			#fffdf8,
+
+		bg:					#ffffffb8,
+		fg:					#3f3f3f,
+		fg-bold:			#313132,
+		fg-light:			mix(#212931, #ffffff, 50%),
+		border:				#dcdcdc,
+		border-bg:			rgba(#dcdcdc, 0.25),
+		accent:				#e5d7c6,
+
+		alt: (
+			bg:				#ffffff,
+			fg:				#448cd3,
+			fg-bold:		#448cd3,
+			fg-light:		mix(#717981, #f5f5f5, 50%),
+			border:			mix(#dcdcdc, #f5f5f5, 75%),
+			border-bg:		rgba(#dcdcdc, 0.5),
+			accent:			#e5d7c6,
+		),
+
+		invert: (
+			bg:				#e5d7c6,
+			bg-alt:			#e5d7c6,
+			fg:				#878787,
+			fg-bold:		#000000,
+			fg-light:		rgba(#ffffff, 0.5),
+			border:			#ffffff,
+			border-bg:		rgba(#ffffff,0.075),
+			accent:			#e5d7c6,
+		),
+	);
