@@ -7,4 +7,4 @@ My software engineering portfolio website.
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript
+**Tech used:** HTML, CSS, SASS, JavaScript
