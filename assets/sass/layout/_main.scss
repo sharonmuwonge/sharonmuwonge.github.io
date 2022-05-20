@@ -57,13 +57,6 @@
 			@include breakpoint('<=small') {
 				@include padding((_size(padding) * 2), (_size(padding) * 1));
 
-				header {
-					&.major {
-						> .date {
-							margin-top: -1rem;
-							margin-bottom: _size(element-margin);
-						}
-
 						> h1, h2 {
 							line-height: 1.2;
 							margin: 0 0 (_size(element-margin) * 0.75) 0;
@@ -71,14 +64,14 @@
 					}
 				}
 			}
-		}
 
 		#projects {
 			display: flex;
+			align-items: baseline;
 
 			> article {
 				text-align: left;
-				margin: 5%;
+				margin: 0 5%;
 
 				> :last-child {
 					margin-bottom: 0;
@@ -118,4 +111,4 @@
 		@include breakpoint('<=xsmall') {
 			width: 100%;
 		}
-	}
+	
